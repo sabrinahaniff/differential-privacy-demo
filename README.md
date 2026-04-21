@@ -17,7 +17,6 @@ The privacy budget epsilon controls the tradeoff:
 - Large epsilon = weak privacy, small noise, more accurate results
 
 ## Key Findings
-<img width="1389" height="489" alt="image" src="https://github.com/user-attachments/assets/82f8331a-f3d7-4c2e-8e9f-9a09e4ee4f06" />
 
 ![Results](results.png)
 
