@@ -27,7 +27,9 @@ The privacy budget epsilon controls the tradeoff:
 
 ## Architecture
 dp.py           - Laplace mechanism, count queries, private queries
+
 simulation.py   - generates synthetic patient dataset, runs experiments across epsilon values
+
 main.py         - entry point, plots privacy-accuracy tradeoff and distribution of private answers
 
 ## The Math
