@@ -34,8 +34,11 @@ main.py         - entry point, plots privacy-accuracy tradeoff and distribution 
 
 ## The Math
 noise = Laplace(0, sensitivity / epsilon)
+
 private_answer = true_answer + noise
+
 Sensitivity = maximum change one person can cause in the query 
+
 result. For count queries, sensitivity = 1.
 
 ## Setup
@@ -48,10 +51,7 @@ python main.py
 
 ## Connection to Research
 
-Differential privacy is foundational to privacy-preserving machine 
-learning, the same epsilon-sensitivity framework applies when 
-training ML models on sensitive data. This simulation explores the 
-core mechanism before applying it to model training contexts.
+Differential privacy is foundational to privacy-preserving machine learning, the same epsilon-sensitivity framework applies when training ML models on sensitive data. This simulation explores the core mechanism before applying it to model training contexts.
 
 ## Future Work
 
