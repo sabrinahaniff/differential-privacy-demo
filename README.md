@@ -52,10 +52,3 @@ python main.py
 ## Connection to Research
 
 Differential privacy is foundational to privacy-preserving machine learning, the same epsilon-sensitivity framework applies when training ML models on sensitive data. This simulation explores the core mechanism before applying it to model training contexts.
-
-## Future Work
-
-- Gaussian mechanism as an alternative to Laplace
-- Composition theorems; how privacy budget degrades across multiple queries
-- Apply differential privacy to federated learning aggregation
-- Test on real anonymized datasets
