@@ -20,14 +20,10 @@ The privacy budget epsilon controls the tradeoff:
 
 ![Results](results.png)
 
-- At epsilon=0.01: mean error of 94.6 - strong privacy but 
-  completely unusable results
-- At epsilon=1.0: mean error of 1.0 - reasonable accuracy with 
-  meaningful privacy protection
-- Sharp knee in the curve between epsilon=0.5 and 1.0 — this is 
-  the practical sweet spot for real deployments
-- Beyond epsilon=5.0: near-perfect accuracy but negligible 
-  privacy guarantee
+- At epsilon=0.01: mean error of 94.6 - strong privacy but completely unusable results
+- At epsilon=1.0: mean error of 1.0 - reasonable accuracy with meaningful privacy protection
+- Sharp knee in the curve between epsilon=0.5 and 1.0 - practical good spot for real deployments
+- Beyond epsilon=5.0: near-perfect accuracy but negligible privacy guarantee
 
 ## Architecture
 dp.py           - Laplace mechanism, count queries, private queries
