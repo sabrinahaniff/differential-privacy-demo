@@ -2,7 +2,7 @@
 
 A simulation of differential privacy using the Laplace mechanism, 
 applied to a synthetic healthcare dataset. Explores how the privacy 
-budget epsilon controls the tradeoff between privacy and accuracy.
+budget epsilon controls the tradeoff between privacy and accuracy for my personal learning.
 
 ## Core Idea
 
