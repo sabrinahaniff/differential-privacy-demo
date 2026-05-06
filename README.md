@@ -4,7 +4,7 @@ A simulation of differential privacy using the Laplace mechanism,
 applied to a synthetic healthcare dataset. Explores how the privacy 
 budget epsilon controls the tradeoff between privacy and accuracy for my personal learning.
 
-## Core Idea
+## Main Idea
 
 Differential privacy adds calibrated random noise to query answers 
 so that no individual's data can be identified from the output. The 
@@ -48,7 +48,3 @@ python3 -m venv venv && source venv/bin/activate
 pip install numpy matplotlib
 python main.py
 ```
-
-## Connection to Research
-
-Differential privacy is foundational to privacy-preserving machine learning, the same epsilon-sensitivity framework applies when training ML models on sensitive data. This simulation explores the core mechanism before applying it to model training contexts.
